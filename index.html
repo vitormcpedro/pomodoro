@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Indie+Flower'>
+<link rel='stylesheet prefetch' href='https://www.shieldui.com/shared/components/latest/css/shieldui-all.min.css'>
+<link rel='stylesheet prefetch' href='https://www.shieldui.com/shared/components/latest/css/light/all.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid text-center">
+  <h1 class="title">Pomodoro Clock</h1>
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-2">
+      <p>BREAK LENGTH</p>
+      <p>
+        <span class="glyphicon glyphicon-minus clickable" id="decrease-break-length"></span>
+        <span class= "lengths" id="break-length"></span>
+        <span class="glyphicon glyphicon-plus clickable" id="increase-break-length"></span>
+      </p>
+    </div>
+    <div class="col-md-2">
+      <p>SESSION LENGTH</p>
+      <p>
+        <span class="glyphicon glyphicon-minus clickable" id="decrease-session-length"></span>
+        <span class= "lengths" id="session-length"></span>
+        <span class="glyphicon glyphicon-plus clickable" id="increase-session-length"></span>
+      </p>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  <div class="row timer-section">
+    <div class="col-md-12 text-center">
+      <div id="timer" class="clickable">
+      </div>
+    </div>
+  </div>
+  <div class="row text-center buttons">
+    <div class="col-md-5"></div>
+    <div class="col-md-2">
+      <button type="button" class="btn btn-default btn-block" id="reset">Reset</button>
+    </div>
+    <div class="col-md-5"></div>
+  </div>
+  <div id="sound"></div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

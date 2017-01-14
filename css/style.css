@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+}
+
+.container-fluid {
+  background-color: #424242;
+  color: white;
+  height: 100%;
+  font-family: 'Open Sans', Arial;
+}
+
+.title {
+  font-size: 70px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.lengths {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.timer-section {
+  margin-top: 40px;
+}
+
+#timer {
+  margin: auto;
+  width: 250px; 
+  height: 250px;
+  background-color: #424242;
+}
+
+.time-info {
+  font-size:50px;
+  color: white;
+}
+
+.clickable {
+  cursor: pointer;
+  
+  /* Disable selection */
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -webkit-user-select: none; 
+  -o-user-select: none;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background: none;
+  border: 2px solid white;
+  color: white;
+}
