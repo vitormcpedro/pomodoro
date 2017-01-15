@@ -1,9 +1,10 @@
 html, body {
   height: 100%;
+  background-color: #424242;
 }
 
 .container-fluid {
-  background-color: #424242;
+  
   color: white;
   height: 100%;
   font-family: 'Open Sans', Arial;
